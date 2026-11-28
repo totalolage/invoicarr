@@ -62,7 +62,7 @@ concurrency:
 
 jobs:
   prepare:
-    runs-on: ubuntu-24.04
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
     outputs:
       version: ${{ steps.metadata.outputs.version }}
@@ -216,7 +216,7 @@ jobs:
   build-and-publish-apk:
     needs: prepare
     if: needs.prepare.outputs.dry-run == 'false' && needs.prepare.outputs.action == 'apk-and-ota'
-    runs-on: ubuntu-24.04
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 60
     permissions:
       contents: read
@@ -306,7 +306,7 @@ jobs:
         (needs.prepare.outputs.action == 'apk-and-ota' && needs.build-and-publish-apk.result == 'success') ||
         needs.prepare.outputs.action == 'ota-only'
       )
-    runs-on: ubuntu-24.04
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 30
     permissions:
       contents: read
@@ -379,7 +379,7 @@ jobs:
   rollback:
     needs: prepare
     if: needs.prepare.outputs.dry-run == 'false' && needs.prepare.outputs.action == 'rollback'
-    runs-on: ubuntu-24.04
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     timeout-minutes: 15
     permissions:
       contents: read

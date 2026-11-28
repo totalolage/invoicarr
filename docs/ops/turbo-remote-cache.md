@@ -32,3 +32,7 @@ export TURBO_TOKEN="<same bearer token from Secret Manager>"
 ```
 
 When `TURBO_API` / `TURBO_TOKEN` are unset (for example on external fork PRs or offline), Turborepo automatically falls back to local `.turbo/cache`.
+
+## Blacksmith runners
+
+GitHub Actions workflows run on Blacksmith runners, whose built-in Turborepo cache is runner-local only (not reachable from developer machines). Keeping `TURBO_API`, `TURBO_TEAM`, and `TURBO_TOKEN` set in CI workflows makes Blacksmith defer to this shared Cloud Run remote cache so local `turbo` and CI share one cache.

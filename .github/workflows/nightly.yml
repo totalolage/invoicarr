@@ -21,7 +21,7 @@ env:
 
 jobs:
   formal-wide:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
@@ -59,7 +59,7 @@ jobs:
           KVITBIT_FORMAL_WIDE: "1"
 
   pg-contention:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
     services:
       postgres:
@@ -106,7 +106,7 @@ jobs:
 
   e2e-web:
     name: e2e-web (Playwright)
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
@@ -143,7 +143,7 @@ jobs:
   # These guards fail when the app exists and its E2E suite has yet to be wired.
   e2e-mobile:
     name: e2e-mobile (Expo, SKELETON)
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -160,7 +160,7 @@ jobs:
 
   e2e-oauth-providers:
     name: e2e-oauth-providers (OAuth, SMTP, GCS, SKELETON)
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -177,7 +177,7 @@ jobs:
 
   e2e-cluster-pgbouncer:
     name: e2e-cluster-pgbouncer (Cluster runner, PgBouncer, SKELETON)
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
