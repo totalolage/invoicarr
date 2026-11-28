@@ -45,6 +45,7 @@ jobs:
       - run: bunx turbo run //#check:bun-nix
       - run: bun run lint
       - run: bun run knip:check
+      - run: bun run crapload
       - run: bun run typecheck
       - run: bun test ./scripts
       - name: Lint rule fixtures and workspace tests
