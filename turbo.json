@@ -62,6 +62,7 @@
     "//#lint:root": {
       "inputs": [
         "biome.jsonc",
+        "crapload.config.json",
         "package.json",
         "tsconfig.base.json",
         "turbo.json",

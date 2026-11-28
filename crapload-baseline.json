@@ -1,0 +1,946 @@
+{
+  "schemaVersion": 1,
+  "calibrationFactor": 0.0725,
+  "maxScore": 15,
+  "entries": {
+    "apps/mobile/app/index.tsx::Index": {
+      "score": 28.321102112962656
+    },
+    "apps/mobile/release/storage-layout.ts::parsePublication": {
+      "score": 19.439967847980906
+    },
+    "apps/mobile/src/features/account/account-screen.tsx::AccountScreen": {
+      "score": 265.8948132523478
+    },
+    "apps/mobile/src/features/auth/auth-client.ts::makeAuthClient": {
+      "score": 100.60346094711866
+    },
+    "apps/mobile/src/features/auth/auth-link-screen.tsx::AuthLinkScreen": {
+      "score": 15.352306177148675
+    },
+    "apps/mobile/src/features/auth/auth-links.ts::nativeAuthPath": {
+      "score": 15.138545134132348
+    },
+    "apps/mobile/src/features/auth/bot-proof-model.ts::makeBotProof": {
+      "score": 22.29518531686824
+    },
+    "apps/mobile/src/features/auth/check-email-screen.tsx::CheckEmailScreen": {
+      "score": 17.287687036873272
+    },
+    "apps/mobile/src/features/auth/invite-screen.tsx::InviteScreen": {
+      "score": 26.92362584268552
+    },
+    "apps/mobile/src/features/auth/reset-password-screen.tsx::ResetPasswordScreen": {
+      "score": 58.09012818381469
+    },
+    "apps/mobile/src/features/auth/sign-in-screen.tsx::SignInScreen": {
+      "score": 112.57268610249311
+    },
+    "apps/mobile/src/features/auth/sign-up-screen.tsx::SignUpScreen": {
+      "score": 227.15414135723364
+    },
+    "apps/mobile/src/features/contacts/contact-detail-screen.tsx::ContactDetailView": {
+      "score": 73.85047014902521
+    },
+    "apps/mobile/src/features/contacts/contact-detail-screen.tsx::ContactEditorView": {
+      "score": 48.94362968946632
+    },
+    "apps/mobile/src/features/contacts/contact-detail-screen.tsx::WorkspaceContactDetail": {
+      "score": 525.1605447594536
+    },
+    "apps/mobile/src/features/contacts/contacts-list-screen.tsx::ContactsListContent": {
+      "score": 25.44128236821241
+    },
+    "apps/mobile/src/features/contacts/contacts-list-screen.tsx::WorkspaceContactsList": {
+      "score": 15.74763267941691
+    },
+    "apps/mobile/src/features/contacts/model.ts::buildContactInput": {
+      "score": 22.498774588478025
+    },
+    "apps/mobile/src/features/contacts/model.ts::validateContactForm": {
+      "score": 21.169499568181614
+    },
+    "apps/mobile/src/features/dashboard/dashboard-screen.tsx::DashboardContent": {
+      "score": 94.74323214568298
+    },
+    "apps/mobile/src/features/dashboard/dashboard-screen.tsx::WorkspaceDashboard": {
+      "score": 16.07473621322051
+    },
+    "apps/mobile/src/features/documents/detail-screen.tsx::DocumentDetailScreen": {
+      "score": 535.599349740417
+    },
+    "apps/mobile/src/features/documents/editor-model.ts::buildDocumentInput": {
+      "score": 18.429867152884025
+    },
+    "apps/mobile/src/features/documents/editor-model.ts::buildDocumentPatch": {
+      "score": 84.7564798785929
+    },
+    "apps/mobile/src/features/documents/editor-model.ts::validateEditorDraft": {
+      "score": 67.29473680992353
+    },
+    "apps/mobile/src/features/documents/editor-screen.tsx::CreditNoteCreatorScreen": {
+      "score": 28.387949729076187
+    },
+    "apps/mobile/src/features/documents/editor-screen.tsx::DocumentEditorScreen": {
+      "score": 3306.390696742936
+    },
+    "apps/mobile/src/features/documents/editor-screen.tsx::DocumentFromTemplateScreen": {
+      "score": 20.55055322686492
+    },
+    "apps/mobile/src/features/documents/list-pages.ts::useDocumentPages": {
+      "score": 40.08861551503834
+    },
+    "apps/mobile/src/features/documents/list-screen.tsx::DocumentsList": {
+      "score": 27.87407677220442
+    },
+    "apps/mobile/src/features/documents/modals.tsx::CreditNoteModal": {
+      "score": 24.676912369571536
+    },
+    "apps/mobile/src/features/documents/request-mutation.ts::usePaymentMutation": {
+      "score": 17.437502210977215
+    },
+    "apps/mobile/src/features/documents/template-import.ts::importTemplate": {
+      "score": 21.748113481678168
+    },
+    "apps/mobile/src/features/expenses/background-drain.ts::drainInBackground": {
+      "score": 106.88471545062649
+    },
+    "apps/mobile/src/features/expenses/capture-queue.ts::makeCaptureQueue": {
+      "score": 188.388251642858
+    },
+    "apps/mobile/src/features/expenses/expense-capture-runtime.tsx::ExpenseCaptureRuntime": {
+      "score": 51.263129902630105
+    },
+    "apps/mobile/src/features/expenses/expense-capture-screen.tsx::CaptureForm": {
+      "score": 138.38514265183218
+    },
+    "apps/mobile/src/features/expenses/expense-detail-screen.tsx::ExpenseDetailScreen": {
+      "score": 624.3901598433434
+    },
+    "apps/mobile/src/features/expenses/expenses-list-screen.tsx::ExpensesListScreen": {
+      "score": 149.2917241219146
+    },
+    "apps/mobile/src/features/expenses/model.ts::buildExpensePayload": {
+      "score": 240.0853746355679
+    },
+    "apps/mobile/src/features/expenses/model.ts::decodeExpenseDetail": {
+      "score": 19.04785236263536
+    },
+    "apps/mobile/src/features/expenses/use-expense-capture.ts::useCaptureAccess": {
+      "score": 18.100300931619113
+    },
+    "apps/mobile/src/features/expenses/use-expense-capture.ts::useCaptureQueueSummary": {
+      "score": 17.81821544840344
+    },
+    "apps/mobile/src/features/expenses/use-expense-capture.ts::useRejectedReceipts": {
+      "score": 19.471803269188026
+    },
+    "apps/mobile/src/features/onboarding/onboarding-screen.tsx::OnboardingScreen": {
+      "score": 385.4814935761874
+    },
+    "apps/mobile/src/features/onboarding/save-onboarding.ts::save": {
+      "score": 157.82705254219547
+    },
+    "apps/mobile/src/features/price-list/price-list-screen.tsx::PriceListContent": {
+      "score": 26.704138693390753
+    },
+    "apps/mobile/src/features/price-list/price-list-screen.tsx::PriceListEditor": {
+      "score": 15.04494084583487
+    },
+    "apps/mobile/src/features/price-list/price-list-screen.tsx::PriceListScreen": {
+      "score": 127.71238757542946
+    },
+    "apps/mobile/src/features/reports/model.ts::decodeReportView": {
+      "score": 49.87355792871444
+    },
+    "apps/mobile/src/features/reports/reports-screen.tsx::ReportsScreen": {
+      "score": 148.78893180575827
+    },
+    "apps/mobile/src/features/settings/api-keys-section.tsx::ApiKeysSection": {
+      "score": 153.1283035555765
+    },
+    "apps/mobile/src/features/settings/bank-accounts-section.tsx::BankAccountsSection": {
+      "score": 98.55494869315082
+    },
+    "apps/mobile/src/features/settings/branding-section.tsx::BrandingSection": {
+      "score": 75.40760532001279
+    },
+    "apps/mobile/src/features/settings/connected-apps-section.tsx::ConnectedAppsSection": {
+      "score": 32.98373425063136
+    },
+    "apps/mobile/src/features/settings/danger-zone-section.tsx::DangerZoneSection": {
+      "score": 26.911973856572594
+    },
+    "apps/mobile/src/features/settings/document-defaults-section.tsx::DocumentDefaultsSection": {
+      "score": 30.18037092601902
+    },
+    "apps/mobile/src/features/settings/issuing-entity-section.tsx::IssuingEntitySection": {
+      "score": 51.897893608857636
+    },
+    "apps/mobile/src/features/settings/numbering-section.tsx::NumberingSection": {
+      "score": 74.61087122679574
+    },
+    "apps/mobile/src/features/settings/reminders-section.tsx::RemindersSection": {
+      "score": 28.036687949124843
+    },
+    "apps/mobile/src/features/settings/tax-regime-section.tsx::TaxRegimeSection": {
+      "score": 25.342376845115144
+    },
+    "apps/mobile/src/features/settings/team-section.tsx::TeamSection": {
+      "score": 124.53206194288205
+    },
+    "apps/mobile/src/features/shell/more-screen.tsx::MoreScreen": {
+      "score": 23.166816771990643
+    },
+    "apps/mobile/src/features/templates/model.ts::buildTemplateInput": {
+      "score": 78.83858624335163
+    },
+    "apps/mobile/src/features/templates/template-detail-screen.tsx::TemplateDetailScreen": {
+      "score": 674.9663544227976
+    },
+    "apps/mobile/src/features/templates/templates-list-screen.tsx::TemplatesListScreen": {
+      "score": 32.732308079454626
+    },
+    "apps/mobile/src/platform/altcha/bot-proof.ts::solve": {
+      "score": 23.142649933166613
+    },
+    "apps/mobile/src/platform/altcha/kdf.ts::blake2b": {
+      "score": 39.762881208148514
+    },
+    "apps/mobile/src/platform/altcha/kdf.ts::createArgon2id": {
+      "score": 355.42062022835387
+    },
+    "apps/mobile/src/platform/altcha/kdf.ts::sha256": {
+      "score": 27.443240470239164
+    },
+    "apps/mobile/src/platform/passkeys/passkey-bridge.native.ts::makeNativePasskeyBridge": {
+      "score": 16.1731593494839
+    },
+    "apps/mobile/src/platform/passkeys/passkey-codec.ts::base64UrlToBytes": {
+      "score": 24.309377514147418
+    },
+    "apps/mobile/src/platform/transfer/transfer.ts::makeTransfer": {
+      "score": 19.977762143937646
+    },
+    "apps/mobile/src/platform/transfer/transfer.web.ts::makeTransfer": {
+      "score": 30.711150272767718
+    },
+    "apps/mobile/src/runtime/analytics.ts::createPageviewTracker": {
+      "score": 17.85479623448009
+    },
+    "apps/mobile/src/runtime/request-intent-store.ts::makeRequestIntentStore": {
+      "score": 26.21657135118713
+    },
+    "apps/mobile/src/session/auth-http.ts::makeAuthFetch": {
+      "score": 42.291671004774365
+    },
+    "apps/mobile/src/session/session-provider-view.tsx::SessionProvider": {
+      "score": 17.91711067598331
+    },
+    "apps/mobile/src/theme/dynamic-color.android.ts::makeAndroidDynamicColorReader": {
+      "score": 35.979111796664185
+    },
+    "apps/server/src/auth/AuthServerLive.ts::makeAuthServerLayer": {
+      "score": 24.170661011613404
+    },
+    "apps/server/src/auth/PrincipalResolverLive.ts::PrincipalResolverLive": {
+      "score": 45.01324614221993
+    },
+    "apps/server/src/auth/invitationSignUp.ts::makeAuthWithInvitationSignUp": {
+      "score": 18.908565600061586
+    },
+    "apps/server/src/auth/oauthWorkspace.ts::makeWorkspaceAuth": {
+      "score": 133.56417960628107
+    },
+    "apps/server/src/config-contract.ts::collectKvitbitProviderSubtree": {
+      "score": 32.55589817024056
+    },
+    "apps/server/src/config-contract.ts::parseIpv6Words": {
+      "score": 16.686993389717927
+    },
+    "apps/server/src/config-contract.ts::resolveBotProtectionConfigImpl": {
+      "score": 17.73710279445374
+    },
+    "apps/server/src/config-contract.ts::resolveEmailConfigImpl": {
+      "score": 61.20242314479919
+    },
+    "apps/server/src/config-contract.ts::validateServerRuntimeEnvImpl": {
+      "score": 17.315137056679987
+    },
+    "apps/server/src/http/analyticsProxy.ts::AnalyticsProxyRoutesLive": {
+      "score": 17.638298976515873
+    },
+    "apps/server/src/http/edge/middleware.ts::EdgeGuardLive": {
+      "score": 37.878166121765815
+    },
+    "apps/server/src/http/feedback/issue.ts::issueContent": {
+      "score": 17.69631467959602
+    },
+    "apps/server/src/http/groups/apiKeys.ts::ApiKeysGroupLive": {
+      "score": 24.83734913795742
+    },
+    "apps/server/src/http/groups/branding.ts::BrandingGroupLive": {
+      "score": 24.971197431548337
+    },
+    "apps/server/src/http/groups/connectedApps.ts::ConnectedAppsGroupLive": {
+      "score": 15.170948851840677
+    },
+    "apps/server/src/http/groups/documents.ts::DocumentsGroupLive": {
+      "score": 37.84470365681313
+    },
+    "apps/server/src/http/groups/expenses.ts::ExpensesGroupLive": {
+      "score": 17.562113403449032
+    },
+    "apps/server/src/http/groups/me.ts::MeGroupLive": {
+      "score": 65.86773698822672
+    },
+    "apps/server/src/http/groups/oauthConsent.ts::OauthConsentGroupLive": {
+      "score": 53.27649312427154
+    },
+    "apps/server/src/http/groups/templates.ts::TemplatesGroupLive": {
+      "score": 16.424729343906847
+    },
+    "apps/server/src/http/groups/workspace.ts::WorkspaceGroupLive": {
+      "score": 17.5356593494839
+    },
+    "apps/server/src/http/groups/workspace/themeColor.ts::DEFAULT_VC": {
+      "score": 17.502356653672997
+    },
+    "apps/server/src/http/groups/workspace/themeColor.ts::solveToRgb": {
+      "score": 38.811684906470504
+    },
+    "apps/server/src/http/groups/workspace/themeColor.ts::xyzFromCam16": {
+      "score": 17.05061846911598
+    },
+    "apps/server/src/http/groups/workspace/themeResolver.ts::resolveMaterialThemeBuilder": {
+      "score": 17.170635503281325
+    },
+    "apps/server/src/http/groups/workspace/themeResolver.ts::resolveTheme": {
+      "score": 23.83240978130228
+    },
+    "apps/server/src/http/mobile/config.ts::MobileConfigLive": {
+      "score": 69.56406209234896
+    },
+    "apps/server/src/http/mobile/routes.ts::handleManifest": {
+      "score": 17.359226587780523
+    },
+    "apps/server/src/http/mobile/storage.ts::makeGcsMobileStorage": {
+      "score": 52.89086628453915
+    },
+    "apps/server/src/http/mobile/storage.ts::makeLocalMobileStorage": {
+      "score": 52.18062269052463
+    },
+    "apps/server/src/http/static.ts::webHandler": {
+      "score": 18.62378236821241
+    },
+    "apps/server/src/logging/logger.ts::makeServerLogger": {
+      "score": 214.04612932822153
+    },
+    "apps/server/src/logging/redact.ts::sanitizeValue": {
+      "score": 39.56609024009805
+    },
+    "apps/server/src/mcp/confirmation.ts::makeConfirmations": {
+      "score": 36.15732717833002
+    },
+    "apps/server/src/mcp/resources.ts::readResource": {
+      "score": 27.44165737151751
+    },
+    "apps/server/src/mcp/tools.ts::callTool": {
+      "score": 420.4291225297459
+    },
+    "apps/server/src/mcp/transport.ts::handleMcpPost": {
+      "score": 87.23570403480123
+    },
+    "apps/server/src/persistence/CoreStoreSql.ts::makeCoreStoreSql": {
+      "score": 44.03715446647536
+    },
+    "apps/server/src/persistence/repos/contacts.ts::spec": {
+      "score": 20.027978912088468
+    },
+    "apps/server/src/persistence/repos/deliveries.ts::DeliveriesRepoSql": {
+      "score": 25.150063880998662
+    },
+    "apps/server/src/persistence/repos/documents.ts::DocumentsRepoSql": {
+      "score": 156.2791667704719
+    },
+    "apps/server/src/persistence/repos/documents.ts::spec": {
+      "score": 66.79033486949638
+    },
+    "apps/server/src/persistence/repos/expenses.ts::ExpensesRepoSql": {
+      "score": 22.813956137896504
+    },
+    "apps/server/src/persistence/repos/reportArchivePages.ts::archivePages": {
+      "score": 18.410429573758666
+    },
+    "apps/server/src/persistence/repos/sharelinks.ts::ShareLinksRepoSql": {
+      "score": 19.232658917665518
+    },
+    "apps/server/src/persistence/repos/workspaces.ts::WorkspacesRepoSql": {
+      "score": 30.14195605584523
+    },
+    "apps/server/src/persistence/repos/workspaces.ts::workspaceSpec": {
+      "score": 33.74153767809584
+    },
+    "apps/server/src/persistence/table.ts::makeTable": {
+      "score": 32.73775922894656
+    },
+    "apps/server/src/projections/documents.ts::ProjectedDocumentsLive": {
+      "score": 20.299406419369582
+    },
+    "apps/server/src/projections/documents.ts::resolveDocumentFieldsAtRevision": {
+      "score": 19.484043487255217
+    },
+    "apps/server/src/projections/documents.ts::runKeyedProjection": {
+      "score": 16.852301011673752
+    },
+    "apps/server/src/runtime/crons.ts::makeCronHandlers": {
+      "score": 34.5612177792336
+    },
+    "apps/server/src/runtime/workflows.ts::makeWorkflowHandlersLayer": {
+      "score": 78.11143160350841
+    },
+    "apps/server/src/runtime/zip.ts::streamZip": {
+      "score": 178.14687777658918
+    },
+    "apps/server/src/wiring/attachmentInventory.ts::gcsAttachmentInventory": {
+      "score": 40.411013028974736
+    },
+    "apps/server/src/wiring/attachmentInventory.ts::localAttachmentInventory": {
+      "score": 35.23164857923054
+    },
+    "apps/server/src/wiring/email.ts::makeEmailSenderLayerImpl": {
+      "score": 18.88905836053282
+    },
+    "apps/server/src/wiring/pdf.ts::DocumentRendererLive": {
+      "score": 220.41411976963664
+    },
+    "apps/server/src/wiring/pdf.ts::documentViewToRenderModel": {
+      "score": 17.91441775445928
+    },
+    "apps/web/src/app/analytics.ts::createPageviewTracker": {
+      "score": 20.38902507352448
+    },
+    "apps/web/src/app/shell.ts::switcher": {
+      "score": 21.659819562604568
+    },
+    "apps/web/src/demo/documents.ts::routes": {
+      "score": 86.85167873415742
+    },
+    "apps/web/src/demo/public.ts::buildShareFixture": {
+      "score": 19.908326725111305
+    },
+    "apps/web/src/demo/public.ts::routes": {
+      "score": 16.212978912088467
+    },
+    "apps/web/src/demo/records.ts::routes": {
+      "score": 75.2332454972514
+    },
+    "apps/web/src/demo/router.ts::installDemoFetch": {
+      "score": 29.788601930816977
+    },
+    "apps/web/src/demo/settings.ts::routes": {
+      "score": 79.12154049541346
+    },
+    "apps/web/src/page/documents/dashboard.ts::viewImpl": {
+      "score": 254.53546095831123
+    },
+    "apps/web/src/page/documents/detail.ts::executeIdempotentWrite": {
+      "score": 44.55413869339075
+    },
+    "apps/web/src/page/documents/detail.ts::renderActiveDialog": {
+      "score": 48.712488366109866
+    },
+    "apps/web/src/page/documents/detail.ts::updateImpl": {
+      "score": 113.14772018180827
+    },
+    "apps/web/src/page/documents/detail.ts::viewImpl": {
+      "score": 1271.0252362015426
+    },
+    "apps/web/src/page/documents/documents.ts::viewImpl": {
+      "score": 54.74443273083234
+    },
+    "apps/web/src/page/documents/editor.ts::buildDocumentInput": {
+      "score": 27.093378328611937
+    },
+    "apps/web/src/page/documents/editor.ts::computePreview": {
+      "score": 15.604422357058311
+    },
+    "apps/web/src/page/documents/editor.ts::resolveEffective": {
+      "score": 23.900520268503513
+    },
+    "apps/web/src/page/documents/editor.ts::runDraftWrite": {
+      "score": 18.893999136363234
+    },
+    "apps/web/src/page/documents/editor.ts::updateImpl": {
+      "score": 111.4931330964153
+    },
+    "apps/web/src/page/documents/editor.ts::viewImpl": {
+      "score": 2044.1654900198403
+    },
+    "apps/web/src/page/documents/shared.ts::documentBadgesImpl": {
+      "score": 32.33898110068188
+    },
+    "apps/web/src/page/documents/templates.ts::updateImpl": {
+      "score": 57.24449491138897
+    },
+    "apps/web/src/page/documents/templates.ts::viewImpl": {
+      "score": 226.2300050938755
+    },
+    "apps/web/src/page/public/_altcha-solver.ts::parseParameters": {
+      "score": 23.45375904503143
+    },
+    "apps/web/src/page/public/_altcha-solver.ts::solveAltchaChallenge": {
+      "score": 30.10665022010075
+    },
+    "apps/web/src/page/public/_altcha_kdf.ts::blake2b": {
+      "score": 39.72663120814851
+    },
+    "apps/web/src/page/public/_altcha_kdf.ts::createArgon2id": {
+      "score": 355.42062022835387
+    },
+    "apps/web/src/page/public/_altcha_kdf.ts::sha256": {
+      "score": 27.443240470239164
+    },
+    "apps/web/src/page/public/auth.ts::initImpl": {
+      "score": 28.164844051133578
+    },
+    "apps/web/src/page/public/auth.ts::updateImpl": {
+      "score": 61.11418940540484
+    },
+    "apps/web/src/page/public/auth.ts::viewImpl": {
+      "score": 159.20802166217797
+    },
+    "apps/web/src/page/public/consent.ts::updateImpl": {
+      "score": 15.782929573758667
+    },
+    "apps/web/src/page/public/consent.ts::viewImpl": {
+      "score": 39.14947936530718
+    },
+    "apps/web/src/page/public/error.ts::viewImpl": {
+      "score": 30.609499568181615
+    },
+    "apps/web/src/page/public/invitation.ts::viewImpl": {
+      "score": 56.9403856367897
+    },
+    "apps/web/src/page/public/landing.ts::viewImpl": {
+      "score": 20.079819562604566
+    },
+    "apps/web/src/page/public/onboarding.ts::ApplyOnboardingSetupCmd": {
+      "score": 72.28594349182617
+    },
+    "apps/web/src/page/public/onboarding.ts::updateWizard": {
+      "score": 65.08372848027008
+    },
+    "apps/web/src/page/public/onboarding.ts::validateStep": {
+      "score": 16.847499999999997
+    },
+    "apps/web/src/page/public/onboarding.ts::viewImpl": {
+      "score": 322.8713766166658
+    },
+    "apps/web/src/page/public/share.ts::viewImpl": {
+      "score": 92.40826489130382
+    },
+    "apps/web/src/page/records/contacts.ts::buildContactPayload": {
+      "score": 57.94809937335561
+    },
+    "apps/web/src/page/records/contacts.ts::update": {
+      "score": 38.477675951830854
+    },
+    "apps/web/src/page/records/contacts.ts::view": {
+      "score": 218.79779228985495
+    },
+    "apps/web/src/page/records/expenses.ts::buildExpensePayload": {
+      "score": 46.266121077383566
+    },
+    "apps/web/src/page/records/expenses.ts::renderAttachmentViewer": {
+      "score": 38.910749568181615
+    },
+    "apps/web/src/page/records/expenses.ts::update": {
+      "score": 100.24714281887084
+    },
+    "apps/web/src/page/records/expenses.ts::view": {
+      "score": 171.58436836685863
+    },
+    "apps/web/src/page/records/price-list.ts::update": {
+      "score": 27.977298852310245
+    },
+    "apps/web/src/page/records/price-list.ts::view": {
+      "score": 90.16019659330199
+    },
+    "apps/web/src/page/records/reports.ts::renderAmountReport": {
+      "score": 35.934482116806876
+    },
+    "apps/web/src/page/records/reports.ts::renderVatSummaryReport": {
+      "score": 37.31588423628446
+    },
+    "apps/web/src/page/records/reports.ts::view": {
+      "score": 70.7949022319175
+    },
+    "apps/web/src/page/records/shared.ts::computeExpensePreview": {
+      "score": 40.00735130157287
+    },
+    "apps/web/src/page/records/shared.ts::normalizeContact": {
+      "score": 51.04752240203406
+    },
+    "apps/web/src/page/records/shared.ts::normalizeExpenseView": {
+      "score": 74.86891949788298
+    },
+    "apps/web/src/page/records/shared.ts::normalizeReport": {
+      "score": 36.329468573653486
+    },
+    "apps/web/src/page/settings/account.ts::init": {
+      "score": 31.90087430924016
+    },
+    "apps/web/src/page/settings/account.ts::update": {
+      "score": 50.46069924458797
+    },
+    "apps/web/src/page/settings/account.ts::view": {
+      "score": 19.966295305768295
+    },
+    "apps/web/src/page/settings/account.ts::viewAppearance": {
+      "score": 27.636999568181615
+    },
+    "apps/web/src/page/settings/account.ts::viewSecurity": {
+      "score": 53.75824956818161
+    },
+    "apps/web/src/page/settings/account.ts::viewSessions": {
+      "score": 16.98625
+    },
+    "apps/web/src/page/settings/models.ts::previewNumberingPattern": {
+      "score": 17.72956556463312
+    },
+    "apps/web/src/page/settings/preview.ts::brandingMiniPreview": {
+      "score": 19.10428280003079
+    },
+    "apps/web/src/page/settings/settings.ts::init": {
+      "score": 90.84945613693912
+    },
+    "apps/web/src/page/settings/settings.ts::update": {
+      "score": 127.79559304522827
+    },
+    "apps/web/src/page/settings/views.ts::viewApiKeys": {
+      "score": 41.25144122904913
+    },
+    "apps/web/src/page/settings/views.ts::viewBankAccounts": {
+      "score": 57.42510101035141
+    },
+    "apps/web/src/page/settings/views.ts::viewBranding": {
+      "score": 20.3627589618588
+    },
+    "apps/web/src/page/settings/views.ts::viewConnectedApps": {
+      "score": 27.924058360532822
+    },
+    "apps/web/src/page/settings/views.ts::viewNumbering": {
+      "score": 19.857781447746845
+    },
+    "apps/web/src/page/settings/views.ts::viewSettingsPage": {
+      "score": 69.50879294204347
+    },
+    "apps/web/src/page/settings/views.ts::viewTeam": {
+      "score": 90.72164546567267
+    },
+    "apps/web/src/runtime/feedback/feedback-overlay.ts::installFeedback": {
+      "score": 216.10335550906203
+    },
+    "apps/web/src/runtime/feedback/selector.ts::elementPathsImpl": {
+      "score": 47.27083866021608
+    },
+    "apps/web/src/ui/sdk.ts::SyncToasts": {
+      "score": 34.86944277736016
+    },
+    "infra/alchemy/src/bootstrap.ts::declareKvitbitStack": {
+      "score": 32.54137480957952
+    },
+    "infra/alchemy/src/config.ts::collectKvitbitProviderSubtree": {
+      "score": 32.55589817024056
+    },
+    "infra/alchemy/src/config.ts::loadStackConfig": {
+      "score": 158.92244841316676
+    },
+    "infra/alchemy/src/config.ts::validateStackConfigSync": {
+      "score": 236.95472926126948
+    },
+    "infra/alchemy/src/deploy-preflight.ts::parseIpv6Words": {
+      "score": 16.686993389717927
+    },
+    "infra/alchemy/src/deploy-preflight.ts::validateDeployPreflight": {
+      "score": 47.730342699191645
+    },
+    "infra/alchemy/src/google-api.ts::makeGoogleApi": {
+      "score": 31.677139125209134
+    },
+    "infra/alchemy/src/mail-forwarder/mime.ts::renderSegments": {
+      "score": 17.254945538738408
+    },
+    "infra/alchemy/src/mail-forwarder/mime.ts::splitMultipart": {
+      "score": 15.193228048451703
+    },
+    "infra/alchemy/src/mail-forwarder/mime.ts::walkEntity": {
+      "score": 48.890696586492616
+    },
+    "infra/alchemy/src/mail-forwarder/relay.ts::buildResendForwardPayload": {
+      "score": 67.48280018094144
+    },
+    "infra/alchemy/src/mail-forwarder/relay.ts::makeMailRelay": {
+      "score": 41.62756280650226
+    },
+    "infra/alchemy/src/mail-forwarder/smtp.ts::createRawSmtpServer": {
+      "score": 258.40469755657165
+    },
+    "infra/alchemy/src/mail-forwarder/smtp.ts::parseEnvelopePathImpl": {
+      "score": 34.99614397012749
+    },
+    "infra/alchemy/src/resources/dns.ts::declareKvitbitDns": {
+      "score": 47.572570079871234
+    },
+    "infra/alchemy/src/resources/edge-backend-service.ts::EdgeBackendServiceProvider": {
+      "score": 69.89053331667091
+    },
+    "infra/alchemy/src/resources/edge-backend-service.ts::backendServiceDrift": {
+      "score": 34.99654430732922
+    },
+    "infra/alchemy/src/resources/edge-compute-api.ts::makeEdgeComputeApi": {
+      "score": 33.549651151202305
+    },
+    "infra/alchemy/src/resources/edge-security-policy.ts::EdgeSecurityPolicyProvider": {
+      "score": 112.60707867463913
+    },
+    "infra/alchemy/src/resources/edge.ts::declareKvitbitEdge": {
+      "score": 18.33115152725282
+    },
+    "infra/alchemy/src/resources/foundation.ts::declareFoundation": {
+      "score": 24.917978405126284
+    },
+    "infra/alchemy/src/resources/monitoring-provider.ts::makeMonitoringApi": {
+      "score": 16.759909781302284
+    },
+    "infra/alchemy/src/resources/monitoring-provider.ts::monitoringLifecycle": {
+      "score": 110.6823630902764
+    },
+    "packages/adapters/src/altcha/index.ts::makeAltchaBotProtection": {
+      "score": 18.84407667554164
+    },
+    "packages/adapters/src/auth/better-auth.ts::guardClientMetadataFetch": {
+      "score": 15.805388693390752
+    },
+    "packages/adapters/src/blob/gcs.ts::make": {
+      "score": 126.43073274878013
+    },
+    "packages/adapters/src/blob/local-disk.ts::makeLocalDiskBlobStorage": {
+      "score": 52.696872827139096
+    },
+    "packages/adapters/src/email/fallback.ts::makeFallbackEmailSender": {
+      "score": 22.558860892675778
+    },
+    "packages/adapters/src/fx/parse.ts::parseDailyTxt": {
+      "score": 26.513062772779094
+    },
+    "packages/adapters/src/pdf/classic.ts::renderClassic": {
+      "score": 55.92324285426695
+    },
+    "packages/adapters/src/pdf/engine.ts::makeChromiumPdfEngine": {
+      "score": 30.367659754958453
+    },
+    "packages/adapters/src/pdf/modern.ts::renderModern": {
+      "score": 247.06731320943095
+    },
+    "packages/adapters/src/pdf/prepare.ts::prepare": {
+      "score": 297.5374084577499
+    },
+    "packages/adapters/src/pdf/report.ts::renderReportHtml": {
+      "score": 23.355762575756028
+    },
+    "packages/adapters/src/qr/document.ts::forDocument": {
+      "score": 19.621070399897498
+    },
+    "packages/adapters/src/qr/epc.ts::epc": {
+      "score": 28.661048042874654
+    },
+    "packages/adapters/src/qr/spayd.ts::spayd": {
+      "score": 23.36953325324951
+    },
+    "packages/adapters/src/sql/request-log.ts::claimRequest": {
+      "score": 20.48770825599532
+    },
+    "packages/adapters/src/templates/email/layout.ts::blockHtml": {
+      "score": 16.18469301315146
+    },
+    "packages/adapters/src/templates/email/templates.ts::e05": {
+      "score": 39.63129252123812
+    },
+    "packages/core/src/compose/bankAccounts.ts::BankAccountReferencesLive": {
+      "score": 18.600303500352688
+    },
+    "packages/core/src/compose/reportsSource.ts::ReportsSourceLive": {
+      "score": 34.01747587875447
+    },
+    "packages/core/src/engines/numbering.ts::parsePattern": {
+      "score": 22.115121481561467
+    },
+    "packages/core/src/engines/statutory.ts::notes": {
+      "score": 16.052089786879336
+    },
+    "packages/core/src/modules/contacts/live.ts::makeContacts": {
+      "score": 81.57460673332372
+    },
+    "packages/core/src/modules/documents/compose.ts::compose": {
+      "score": 305.7412959508232
+    },
+    "packages/core/src/modules/documents/compose.ts::expandLines": {
+      "score": 26.65434202420038
+    },
+    "packages/core/src/modules/documents/corrections.ts::plan": {
+      "score": 23.188799264865324
+    },
+    "packages/core/src/modules/documents/credit.ts::remainderSpec": {
+      "score": 25.8913186989678
+    },
+    "packages/core/src/modules/documents/final.ts::deductionLines": {
+      "score": 30.37120288433959
+    },
+    "packages/core/src/modules/documents/lifecycle.ts::editIssued": {
+      "score": 35.713484452665945
+    },
+    "packages/core/src/modules/documents/lifecycle.ts::issue": {
+      "score": 20.672251685506595
+    },
+    "packages/core/src/modules/documents/lifecycle.ts::lightEdit": {
+      "score": 91.88273254824597
+    },
+    "packages/core/src/modules/documents/payments.ts::issuePaymentTaxDocument": {
+      "score": 26.965000175119567
+    },
+    "packages/core/src/modules/documents/payments.ts::lock": {
+      "score": 20.184637644344726
+    },
+    "packages/core/src/modules/documents/repo.ts::DocumentsRepoMemory": {
+      "score": 53.3824058187593
+    },
+    "packages/core/src/modules/documents/reports.ts::reportFigures": {
+      "score": 18.356499136363233
+    },
+    "packages/core/src/modules/documents/service.ts::make": {
+      "score": 15.111507976573836
+    },
+    "packages/core/src/modules/expenses/model.ts::validateComplete": {
+      "score": 65.66567014113761
+    },
+    "packages/core/src/modules/expenses/repo.ts::ExpensesRepoMemory": {
+      "score": 25.839658144591517
+    },
+    "packages/core/src/modules/expenses/service.ts::makeExpenses": {
+      "score": 125.46200108920593
+    },
+    "packages/core/src/modules/expenses/sniff.ts::heicSniffer": {
+      "score": 17.052569557807246
+    },
+    "packages/core/src/modules/expenses/suppliers.ts::FakeExpenseSuppliers": {
+      "score": 16.783249568181617
+    },
+    "packages/core/src/modules/numbering/service.ts::make": {
+      "score": 67.30754519220682
+    },
+    "packages/core/src/modules/payments/fakes.ts::PaymentFakesLive": {
+      "score": 19.041375431437082
+    },
+    "packages/core/src/modules/pricelist/live.ts::makePriceList": {
+      "score": 21.381524780035505
+    },
+    "packages/core/src/modules/recurring/issuance.ts::makeRecurringIssuance": {
+      "score": 55.364238962608304
+    },
+    "packages/core/src/modules/recurring/service.ts::makeTemplates": {
+      "score": 138.70523867100212
+    },
+    "packages/core/src/modules/reports/compute.ts::expenses": {
+      "score": 19.68700972120734
+    },
+    "packages/core/src/modules/reports/csv.ts::formatDecimal": {
+      "score": 15.878032800030793
+    },
+    "packages/core/src/modules/reports/exports.ts::ExportJobsLive": {
+      "score": 15.462140498893415
+    },
+    "packages/core/src/modules/reports/service.ts::makeReports": {
+      "score": 52.884785447643054
+    },
+    "packages/core/src/modules/sharelinks/repo.ts::ShareLinksRepoMemory": {
+      "score": 17.855140930711798
+    },
+    "packages/core/src/modules/workspaces/live.ts::makeWorkspaces": {
+      "score": 899.1130402594758
+    },
+    "packages/core/src/modules/workspaces/ports.ts::WorkspaceSeriesMemory": {
+      "score": 31.101810881798468
+    },
+    "packages/core/src/store/memory.ts::makeMemoryStore": {
+      "score": 218.62252739558883
+    },
+    "packages/core/src/store/query.ts::runQuery": {
+      "score": 22.03688602630292
+    },
+    "packages/ui-port/src/api/errors.ts::describeError": {
+      "score": 19.4275
+    },
+    "packages/ui-port/src/api/retry.ts::retryTransient": {
+      "score": 15.81125
+    },
+    "packages/ui-port/src/format/address.ts::applyAddressPasteImpl": {
+      "score": 22.338933623178004
+    },
+    "packages/ui-port/src/format/address.ts::buildResult": {
+      "score": 24.794947485741954
+    },
+    "packages/ui-port/src/format/address.ts::parseMultiSegment": {
+      "score": 240.79998651108127
+    },
+    "packages/ui-port/src/format/address.ts::parseSingleSegment": {
+      "score": 21.06988826157237
+    },
+    "packages/ui-port/src/format/number.ts::formatExact": {
+      "score": 30.293525691714972
+    },
+    "packages/ui-port/src/theme/color/hct.ts::makeViewingConditions": {
+      "score": 19.255700403095307
+    },
+    "packages/ui-port/src/theme/color/hct.ts::solveToRgb": {
+      "score": 32.811684906470504
+    },
+    "packages/ui-port/src/theme/color/hct.ts::xyzFromCam16": {
+      "score": 16.05061846911598
+    },
+    "packages/ui-port/src/theme/contrast-check.ts::exhaustiveColor": {
+      "score": 46.77424329334716
+    },
+    "packages/ui-port/src/theme/contrast-check.ts::feasibleColor": {
+      "score": 19.14112123462618
+    },
+    "packages/ui-port/src/theme/contrast-check.ts::propagate": {
+      "score": 18.354248680252617
+    },
+    "packages/ui-port/src/theme/contrast-check.ts::relax": {
+      "score": 18.36725057426645
+    },
+    "packages/ui-port/src/theme/material-theme-json.ts::decodeWithPreview": {
+      "score": 21.128412629551526
+    },
+    "packages/ui-port/src/view-models/calculation.ts::calculate": {
+      "score": 56.49450229635333
+    },
+    "packages/ui-port/src/view-models/form.ts::Form": {
+      "score": 20.31875
+    },
+    "packages/ui-port/src/view-models/routes.ts::Routes": {
+      "score": 15.07125
+    },
+    "packages/ui-port/src/view-models/routes.ts::fromPath": {
+      "score": 34.73473018119978
+    },
+    "packages/ui-port/src/view-models/routes.ts::rawRoute": {
+      "score": 38.524495644318726
+    },
+    "packages/ui-port/src/view-models/scopes.ts::ScopePicker": {
+      "score": 28.987635594484537
+    }
+  }
+}

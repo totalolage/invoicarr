@@ -1,0 +1,32 @@
+{
+  "include": [
+    "apps/**/*.{ts,tsx,mts,cts}",
+    "packages/**/*.{ts,tsx,mts,cts}",
+    "infra/**/*.{ts,tsx,mts,cts}"
+  ],
+  "exclude": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/.expo/**",
+    "**/.turbo/**",
+    "**/generated/**",
+    "**/e2e/**",
+    "**/scripts/**",
+    "**/test/**",
+    "**/tests/**",
+    "**/testing/**",
+    "**/__tests__/**",
+    "**/__fixtures__/**",
+    "**/*.{test,spec,integration,contention,testkit,pw,test-utils}.{ts,tsx,mts,cts}",
+    "**/*.d.ts"
+  ],
+  "presets": ["effect", "drizzle"],
+  "thresholds": {
+    "maxScore": 30,
+    "maxComplexity": 15
+  },
+  "baseline": {
+    "file": "crapload-baseline.json",
+    "tolerance": 0.5
+  }
+}

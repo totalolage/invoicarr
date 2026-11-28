@@ -2350,6 +2350,11 @@
     url = "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.14.3.tgz";
     hash = "sha512-++QEw4DIY7WGoukz+/+A/8dGYPT9l9yIadnmSgZ8Rjr3YVSVDipQSO9CdnJo9ePqFqUUqh+wk9uIaoiAwsiPkA==";
   };
+  "github:totalolage-crapload-82ac62f" = fetchurl {
+    name = "crapload.tgz";
+    url = "https://github.com/totalolage/crapload/tarball/82ac62f";
+    hash = "sha512-qbqWMHiuPo4HTV32aa8E8yCH1CuSVcwC9ENF2f6UASqjnII2eqZiZkbKQk564qOk2EZxntHu8OgxUamOUkysxA==";
+  };
   "graceful-fs@4.2.12" = fetchurl {
     url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.12.tgz";
     hash = "sha512-iuyGF2E4oafQfPsRrG2wtY2ILupMhvtdrhzrxB+0VcjsPpSPttpfYdjnGFGsTi5MaJFjI1jOKHPQ6UTbTj9TAw==";
@@ -3530,6 +3535,10 @@
   "type-fest@0.7.1" = fetchurl {
     url = "https://registry.npmjs.org/type-fest/-/type-fest-0.7.1.tgz";
     hash = "sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==";
+  };
+  "typescript@5.9.3" = fetchurl {
+    url = "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz";
+    hash = "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==";
   };
   "typescript@6.0.2" = fetchurl {
     url = "https://registry.npmjs.org/typescript/-/typescript-6.0.2.tgz";

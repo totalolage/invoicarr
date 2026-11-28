@@ -22,7 +22,7 @@ for (const [name, entry] of Object.entries(lock["packages"])) {
     throw new Error(`Expected a lockfile entry array for ${name}`);
   }
   const parts: readonly unknown[] = entry;
-  const [specifier, registryUrl] = parts;
+  const [specifier, second, third] = parts;
   if (!isLockString(specifier)) throw new Error(`Missing specifier for ${name}`);
 
   const separator = specifier.indexOf("@", 1);
@@ -37,21 +37,40 @@ for (const [name, entry] of Object.entries(lock["packages"])) {
 
   const basename = packageName.slice(packageName.lastIndexOf("/") + 1);
   const tarball = /^https?:\/\//u.test(source);
-  const key = tarball ? `tarball:${source}` : specifier;
-  const hasRegistryUrl = isLockString(registryUrl) && registryUrl.length > 0;
-  const url = tarball
-    ? source
-    : hasRegistryUrl
-      ? registryUrl
+  const githubMatch = /^github:([^/#]+)\/([^/#]+)#([^/#]+)$/u.exec(source);
+  const hasRegistryUrl =
+    !tarball && githubMatch === null && isLockString(second) && second.length > 0;
+  let key: string;
+  let url: string;
+  if (tarball) {
+    if (entry.length !== 3) {
+      throw new Error(`Unsupported lockfile entry for ${name}: ${specifier}`);
+    }
+    key = `tarball:${source}`;
+    url = source;
+  } else if (githubMatch !== null) {
+    if (entry.length !== 4 || !isLockString(third) || third.length === 0) {
+      throw new Error(`Unsupported lockfile entry for ${name}: ${specifier}`);
+    }
+    const [, owner, repo, rev] = githubMatch;
+    key = `github:${third}`;
+    url = `https://github.com/${owner}/${repo}/tarball/${rev}`;
+  } else {
+    if (entry.length !== 4) {
+      throw new Error(`Unsupported lockfile entry for ${name}: ${specifier}`);
+    }
+    key = specifier;
+    url = hasRegistryUrl
+      ? second
       : `https://registry.npmjs.org/${packageName}/-/${basename}-${source}.tgz`;
-  if ((tarball && entry.length !== 3) || (!tarball && entry.length !== 4)) {
-    throw new Error(`Unsupported lockfile entry for ${name}: ${specifier}`);
   }
 
   // A URL without a .tgz suffix still needs that extension for bun2nix extraction.
   const expression = [
     `  ${nixString(key)} = fetchurl {`,
-    ...(tarball || hasRegistryUrl ? [`    name = ${nixString(`${basename}.tgz`)};`] : []),
+    ...(tarball || githubMatch !== null || hasRegistryUrl
+      ? [`    name = ${nixString(`${basename}.tgz`)};`]
+      : []),
     `    url = ${nixString(url)};`,
     `    hash = ${nixString(hash)};`,
     "  };",
