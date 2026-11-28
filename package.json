@@ -57,7 +57,7 @@
     "crapload:baseline": "bun node_modules/crapload/src/cli.ts baseline --no-coverage",
     "crapload:crap": "bun node_modules/crapload/src/cli.ts --coverage coverage/lcov.info",
     "prepare": "if [ -f .githooks/install.sh ]; then sh .githooks/install.sh; fi",
-    "test:static-checks": "bun test scripts/check-changed.test.ts"
+    "test:static-checks": "bun test scripts/check-changed.test.ts scripts/crapload-config.test.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.8",

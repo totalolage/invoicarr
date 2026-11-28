@@ -363,6 +363,15 @@
     "//#test:static-checks": {
       "inputs": [
         "scripts/check-changed*.ts",
+        "scripts/crapload-config.test.ts",
+        "crapload.config.json",
+        "apps/mobile/src/features/documents/test-ui-shim.tsx",
+        "apps/mobile/src/features/expenses/{model.ts,capture-shell-fixture.tsx,expenses-probe.tsx}",
+        "apps/mobile/src/features/reports/test-probe.tsx",
+        "apps/mobile/src/features/test-probes.tsx",
+        "apps/mobile/src/platform/transfer/testing.ts",
+        "apps/mobile/src/updates/expo-updates-stand-in.ts",
+        "packages/core/src/modules/documents/fakes.ts",
         "package.json",
         "bun.lock",
         "biome.jsonc",

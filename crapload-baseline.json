@@ -840,9 +840,6 @@
     "packages/core/src/modules/numbering/service.ts::make": {
       "score": 67.30754519220682
     },
-    "packages/core/src/modules/payments/fakes.ts::PaymentFakesLive": {
-      "score": 19.041375431437082
-    },
     "packages/core/src/modules/pricelist/live.ts::makePriceList": {
       "score": 21.381524780035505
     },
@@ -872,9 +869,6 @@
     },
     "packages/core/src/modules/workspaces/ports.ts::WorkspaceSeriesMemory": {
       "score": 31.101810881798468
-    },
-    "packages/core/src/store/memory.ts::makeMemoryStore": {
-      "score": 218.62252739558883
     },
     "packages/core/src/store/query.ts::runQuery": {
       "score": 22.03688602630292
