@@ -19,7 +19,7 @@ env:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
@@ -51,7 +51,7 @@ jobs:
         run: bun run test --concurrency=2
 
   static-mounts:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
     services:
       postgres:
@@ -118,7 +118,7 @@ jobs:
   # Bounded TLC models with their mutants, trace-replay harnesses and covered-file digests
   # (docs/adr/0005-formal-verification.md). A TLC timeout or incomplete search fails the job.
   formal:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
@@ -154,7 +154,7 @@ jobs:
         run: bun run verify:formal:cached -- --continue
 
   changes:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     timeout-minutes: 5
     permissions:
       contents: read
@@ -190,7 +190,7 @@ jobs:
   pg-contention:
     needs: changes
     if: needs.changes.outputs.contention == 'true'
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
     services:
       postgres:
